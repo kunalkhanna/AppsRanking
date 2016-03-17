@@ -1,0 +1,11 @@
+#runner script.
+
+import package.appInfo
+
+
+Secondary = ['682824301', '332548211', '646568481', '700913915', '558103335', '329502124']
+Primary = '329380089'
+
+#Program tested with condition of no network connection, incorrect app_id and different sets of app_ids.
+
+package.appInfo.main (Primary,Secondary)
